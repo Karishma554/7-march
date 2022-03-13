@@ -10,10 +10,10 @@ const convert_json= function(res){
     return res.json();
 }
 const originial=function (sagar){
-  console.log(sagar.data);
-  console.log(sagar.data[0].id);
+  console.log(jim.data);
+  console.log(jim.data[0].id);
   for(let i=0;i<10;i++){
-    var result=sagar.data[i];
+    var result=jim.data[i];
     const op=document.getElementById("check");
     
     const op_text=document.createElement("img");
